@@ -1,0 +1,254 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+
+
+
+
+
+
+
+/*     SIDENAV      */ 
+
+
+
+
+
+
+
+
+#sideNav {
+    width: 300px;
+    height: 100vh;
+    position: fixed;
+    right: -300px;
+    top: 0;
+    background: white;
+    z-index: 2;
+    transition: 0.5s;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 50px 5px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+#menuBtn {
+    width: 50px;
+    height: 50px;
+    background: white;
+    text-align: center;
+    position: fixed;
+    right: 30px;
+    top: 20px;
+    border-radius: 3px;
+    z-index: 3;
+    cursor: pointer;
+}
+
+#menuBtn img {
+    width: 20px;
+    margin-top: 15px;
+}
+
+
+
+
+
+
+
+/*      TITLE AREA      */
+
+
+
+
+
+
+
+.page-title {
+    text-align: center;
+    background: linear-gradient(225deg, rgba(0, 0, 0, 0.5), white, white), url(/images/northsweden_img_0753_hr.webp);
+    background-size: cover;
+    background-position: center;
+    top: 0;
+    left: 0;
+    padding-top: 10px;
+    box-shadow: 0 5px 5px
+}
+
+.page-title h1 {
+    font-size: 50px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: #009688;
+    text-decoration: underline;
+}
+
+.page-title h3 {
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #009688;
+    font-size: 20px;
+    padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+/*         Content         */
+
+
+
+
+
+
+
+
+
+.content-packing, .content-shopping, .content-general, .content-sled {
+    border: 1px solid;
+    margin: 50px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.7);
+}
+
+.content-box h2, .content-box p {
+    color: #009688
+}
+
+.content-packing {
+    background:linear-gradient(225deg, rgba(0, 0, 0, 0.5), white, white), url(/images/Lindsey\ shorter.webp);
+    background-size: cover;
+    background-position: left;
+}
+
+.content-shopping {
+    background: linear-gradient(225deg, rgba(0, 0, 0, 0.5), white, white), url(/images/11434f2d-5d7f-4a59-b0be-32fff9ce2bfd.avif);
+    background-size: cover;
+    background-position: left;
+}
+
+#in-general a img {
+    width: 72px;
+    height: 72px;
+    margin: 10px;
+    padding: 5px;
+    border: 1px solid darkgrey;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+#in-general a:hover img {
+    border: 2px solid green;
+}
+
+.content-shopping details label{
+    display: block;
+}
+
+
+
+
+
+
+
+/*             FOOTER                */
+
+
+
+
+
+
+
+
+#footer {
+    width: 100%;
+    display: block;
+    background: rgb(1, 1, 61);
+}
+
+
+.footer {
+    position: relative;
+    width: 100%;
+    min-height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    flex-direction:column;
+    height: 300px;
+}
+
+footer > p {
+    position: absolute;
+    bottom: 5px;
+    left: 10px;
+    margin: 2px;
+    color: white;
+}
+
+.footer-content {
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-content a p {
+    margin: 0;
+    color: white;
+    border: 0 solid;
+    padding: 2px 5px;
+    transition: 0.2s;
+}
+
+.footer-content a:hover p {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+.our-content {
+    padding: 0 100px;
+}
+
+.our-content p , .other-content p {
+    color: white;
+    text-align: center;
+    margin-bottom: 2px;
+    border-bottom: 1px solid;
+}
+
+.our-content a, .other-content a {
+    text-decoration: none;
+}
+
+@media screen and (max-width: 770px) {
+    .our-content p , .other-content p {
+        font-size: 15px;
+        padding-top: 20px;
+    }
+
+    .our-content {
+        padding: 0 40px;
+    }
+}
+
