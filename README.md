@@ -5,7 +5,6 @@
 
 ![Test results from lighthouse](https://lh3.googleusercontent.com/pw/AP1GczOJtJzgG26nmyhrAzoczZyp5Q7GUvXCH_ZjF4RX8lXlqBfeZujWxp5JucYxpffDuW3el-PSU2oerKlnBMhahn4Hg_XGd-CC4FOjGuT5ZHekWQXHA1c=w2400)
 
-# Project Title
 
 Begin your journey in the frozen tundras of northern Sweden.
 
@@ -63,4 +62,31 @@ I unfortunately didn't have time to figure out all of the features i wanted to h
   to something more readable when the image stretches.
 
 
+### Deployment
 
+This site was deployed using Github pages. Follow the steps below to deploy:
+- In the Github repository, navigate to the settings tab.
+- From the source section drop down, select the master branch.
+- Once the master branch has been selected, the page provided the link to the deployed website.
+Live link to website [here](https://saintcill.github.io/project-website-2/)
+
+
+## Credits
+
+### Content
+- Side nav and overlay design by [Greatstack](https://www.youtube.com/watch?v=lBfshkPlMW8&t=2018s)
+
+### Media
+
+- Menu icon from pixel perfect
+- Close menu icon by ariefstudio
+- Museum image on home page from visit luleå
+- Snowmobile image on home page from luleå travel
+- Sled image on home page from heyhusky.com
+- Skiing image on home page from visit luleå
+- Clarion spa image on home page from Strawberry.se
+- Event photos sourced from the respective events site
+- "While in sweden" photos from national geographic
+- Packing background image by lindsey shorter
+- Shopping background image from hotels.com
+- Banner image from minddig 
