@@ -180,14 +180,10 @@ nav ul li a {
 
 
 
-#footer {
-    width: 100%;
-    display: block;
-    background: rgb(1, 1, 61);
-}
 
 
 .footer {
+    background: rgb(1, 1, 61);
     position: relative;
     width: 100%;
     min-height: 100px;

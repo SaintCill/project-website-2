@@ -25,7 +25,6 @@ body{
 }
 
 .section-title {
-    position: flex;
     top: 10%;
     left: 45%;
     text-align: center;
@@ -221,13 +220,12 @@ nav ul li a {
     .section-title {
         top: 10%;
         left: 70%;
-        transform: translate();
         text-align: center;
     }
 
     .section-title h1 {
         padding-top: 50px;
-        font-size: 80px;
+        font-size: 100px;
     }
 
     #menuBtn {
@@ -274,7 +272,6 @@ nav ul li a {
 
 
 .upcoming-header {
-    position: flex;
     padding-top: 100px;
     justify-content: center;
     text-align: center;
@@ -413,14 +410,10 @@ nav ul li a {
 
 
 
-#footer {
-    width: 100%;
-    display: block;
-    background: rgb(1, 1, 61);
-}
 
 
 .footer {
+    background: rgb(1, 1, 61);
     position: relative;
     width: 100%;
     min-height: 100px;
