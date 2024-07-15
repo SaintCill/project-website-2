@@ -80,7 +80,7 @@ nav ul li a {
 
 .page-title {
     text-align: center;
-    background: linear-gradient(225deg, rgba(0, 0, 0, 0.5), white, white), url(images/northsweden_img_0753_hr.webp);
+    background: linear-gradient(225deg, rgba(0, 0, 0, 0.5), white, white), url(assets/images/northsweden_img_0753_hr.webp);
     background-size: cover;
     background-position: center;
     top: 0;
@@ -135,13 +135,13 @@ nav ul li a {
 }
 
 .content-packing {
-    background:linear-gradient(225deg, rgba(0, 0, 0, 0.5), white, white), url(images/Lindsey\ shorter.webp);
+    background:linear-gradient(225deg, rgba(0, 0, 0, 0.5), white, white), url(assets/images/Lindsey\ shorter.webp);
     background-size: cover;
     background-position: left;
 }
 
 .content-shopping {
-    background: linear-gradient(225deg, rgba(0, 0, 0, 0.5), white, white), url(images/11434f2d-5d7f-4a59-b0be-32fff9ce2bfd.avif);
+    background: linear-gradient(225deg, rgba(0, 0, 0, 0.5), white, white), url(assets/images/11434f2d-5d7f-4a59-b0be-32fff9ce2bfd.avif);
     background-size: cover;
     background-position: left;
 }
