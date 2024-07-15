@@ -181,7 +181,8 @@ nav ul li a {
 }
 
 .adventure-img-container img {
-    width: 100%;
+    width: 720px;
+    height: 544px;
     border-radius: 7px;
 }
 
@@ -241,6 +242,11 @@ hr {
 @media screen and (max-width: 770px) {
     .adventure-img-container {
         margin-bottom: 30px;
+    }
+
+    .adventure-img-container img {
+        width: 100%;
+        height: auto;
     }
 
     .adventure-descr p {
