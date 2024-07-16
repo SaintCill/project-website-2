@@ -264,7 +264,7 @@ hr {
     width: 100%;
     height: 100%;
     padding: 20px 0;
-    background-image: url(assets/images/norrbottensmuseum.webp) !important;
+    background-image: url(../images/norrbottensmuseum.webp) !important;
     background-size: cover;
     background-repeat: no-repeat;
 }
