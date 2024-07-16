@@ -19,18 +19,18 @@ seeks to be a place where one can find all the resources they would need when tr
 Sweden, Luleå. It gives both options for outdoors and indoors activities, and provides tips on what to bring if you are
 seeking adventure.
 
-### Features
+## Features
 
-- Side navigation that is both easy to find and out of the way
+- Navigation menu is minimal and easy to understand
 - Animated interactions while howering over images
 - Direct links to several resources and activities hidden with CSS
 - An almost purely CSS slider, with automatic sliding!
-- A help page for those seeking to travel to Luleå
+- A "traveling tips" page.
 - Maps that showcase popular skiing locations
 - A checklist for scooter entustiast, focused on safety while out in the wild
 
 
-### Features to be implemented
+## Features to be implemented
 I unfortunately didn't have time to figure out all of the features i wanted to have.
 - Clickable links in the slider.*
 - Hover features for the events page images.*
@@ -44,7 +44,7 @@ I unfortunately didn't have time to figure out all of the features i wanted to h
 - Lighthouse score all in the greens.
 - Tested features and layout on mobile and mobile emulator.
 
-### Bugs
+## Bugs
 - Encountered a bug where slider was offset to the left side of the screen, despite all CSS rules pointing towards the middle.
       - Reworked rules several times to fix this issue
 - While trying to add overlay to the images in events, the overlay kept being offset towards the top of the page, and was way bigger than
@@ -62,12 +62,13 @@ I unfortunately didn't have time to figure out all of the features i wanted to h
   to something more readable when the image stretches.
 
 
-### Deployment
+## Deployment
 
 This site was deployed using Github pages. Follow the steps below to deploy:
-- In the Github repository, navigate to the settings tab.
+- Fork repository.
+- Once forked, in the settings tab go to pages.
 - From the source section drop down, select the master branch.
-- Once the master branch has been selected, the page provided the link to the deployed website.
+- Once the master branch has been selected, github pages should provide a live link to the website.
 Live link to website [here](https://saintcill.github.io/project-website-2/)
 
 
